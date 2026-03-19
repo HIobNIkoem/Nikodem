@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moje Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <!-- HERO / ABOUT -->
+  <section class="max-w-6xl mx-auto p-8">
+    <h1 class="text-4xl font-bold mb-2">Nikodem Miłkoś</h1>
+    <p class="text-lg text-gray-600">Grafik / Designer / Illustrator</p>
+
+    <p class="mt-4 max-w-2xl">
+      Nazywam się Nikodem Miłkoś zakończyłem technikum graficzno poligraficzne w Oświęcimiu. Zajmuję się projektami graficznymi wektrowymi, rastrowymi i 3D. Pracuje w programach z pakietu Adobe, Krita, Gimp, Blender.
+    </p>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="max-w-6xl mx-auto p-8">
+    <h2 class="text-2xl font-bold mb-6">Moje Projekty</h2>
+
+    <div class="grid md:grid-cols-3 gap-6">
+
+      <!-- PROJECT CARD -->
+      <div class="bg-white rounded-2xl shadow p-4">
+        <img src="Nikodem_Miłkoś_5gr.jpg" class="rounded-xl mb-3" />
+        <h3 class="font-semibold text-lg">Roll-up</h3>
+        <p class="text-sm text-gray-600">projekt roll-up dla urzędu pracy.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-4">
+        <img src="pszczoła.jpg" class="rounded-xl mb-3" />
+        <h3 class="font-semibold text-lg">Logo</h3>
+        <p class="text-sm text-gray-600">Projekt logo na ogólnopolski dzień pszczelarzy.</p>
+      </div>
+
+      <div class="bg-white rounded-2xl shadow p-4">
+        <img src="Safe _online.jpg" class="rounded-xl mb-3" />
+        <h3 class="font-semibold text-lg">Plakat</h3>
+        <p class="text-sm text-gray-600">Plakat informujący o cyberbezpieczeństwie.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="max-w-6xl mx-auto p-8">
+    <h2 class="text-2xl font-bold mb-4">Umiejętności</h2>
+
+    <ul class="grid md:grid-cols-4 gap-3">
+      <li class="bg-white p-3 rounded-xl shadow">Photoshop</li>
+      <li class="bg-white p-3 rounded-xl shadow">Illustrator</li>
+      <li class="bg-white p-3 rounded-xl shadow">Krita</li>
+      <li class="bg-white p-3 rounded-xl shadow">Blender</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="max-w-6xl mx-auto p-8">
+    <h2 class="text-2xl font-bold mb-4">Kontakt</h2>
+
+    <p>Email: milkosnikodem@gmail.com</p>
+    <p>Tel: 123 456 789</p>
+  </section>
+
+  <footer class="text-center p-6 text-sm text-gray-500">
+    © 2026 Nikodem Miłkoś
+  </footer>
+
+</body>
+</html>
